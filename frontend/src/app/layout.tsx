@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Inter, Instrument_Serif } from 'next/font/google';
 import './globals.css';
 import { AuthProvider } from '../lib/auth';
-import CrisisBanner from '../components/layout/CrisisBanner';
+import CrisisBanner from '@/app/components/layout/CrisisBanner';
 
 const inter = Inter({
   subsets: ['latin'],
