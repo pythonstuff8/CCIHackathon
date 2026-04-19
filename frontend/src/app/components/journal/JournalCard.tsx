@@ -1,8 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import type { JournalEntry } from '../../lib/types';
-import { formatDate, getMoodEmoji, truncate } from '../../lib/utils';
+import type { JournalEntry } from '../../../../frontend/src/lib/types';
+import { formatDate, getMoodEmoji, truncate } from '../../../../frontend/src/lib/utils';
 import Badge from '../ui/Badge';
 
 interface JournalCardProps {

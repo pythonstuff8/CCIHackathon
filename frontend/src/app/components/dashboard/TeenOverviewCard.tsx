@@ -1,8 +1,8 @@
 'use client';
 
-import type { TeenOverview } from '../../lib/types';
+import type { TeenOverview } from '../../../../frontend/src/lib/types';
 import Badge from '../ui/Badge';
-import { timeAgo } from '../../lib/utils';
+import { timeAgo } from '../../../../frontend/src/lib/utils';
 
 interface TeenOverviewCardProps {
   teen: TeenOverview;

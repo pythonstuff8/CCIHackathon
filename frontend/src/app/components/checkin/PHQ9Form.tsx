@@ -1,9 +1,9 @@
 'use client';
 
 import { useState } from 'react';
-import { PHQ9_QUESTIONS, PHQ9_OPTIONS } from '../../lib/constants';
+import { PHQ9_QUESTIONS, PHQ9_OPTIONS } from '../../../../frontend/src/lib/constants';
 import Button from '../ui/Button';
-import { classNames } from '../../lib/utils';
+import { classNames } from '../../../../frontend/src/lib/utils';
 
 interface PHQ9FormProps {
   onSubmit: (answers: number[]) => Promise<void>;

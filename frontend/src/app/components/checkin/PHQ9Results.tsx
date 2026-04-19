@@ -1,9 +1,9 @@
 'use client';
 
-import type { PHQ9Response } from '../../lib/types';
-import { formatDate } from '../../lib/utils';
-import { classNames } from '../../lib/utils';
-import { CRISIS_RESOURCES } from '../../lib/constants';
+import type { PHQ9Response } from '../../../../frontend/src/lib/types';
+import { formatDate } from '../../../../frontend/src/lib/utils';
+import { classNames } from '../../../../frontend/src/lib/utils';
+import { CRISIS_RESOURCES } from '../../../../frontend/src/lib/constants';
 
 interface PHQ9ResultsProps {
   result: PHQ9Response;

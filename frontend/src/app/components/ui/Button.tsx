@@ -1,7 +1,7 @@
 'use client';
 
 import { type ButtonHTMLAttributes } from 'react';
-import { classNames } from '../../lib/utils';
+import { classNames } from '../../../../frontend/src/lib/utils';
 
 type Variant = 'primary' | 'secondary' | 'danger' | 'ghost';
 type Size = 'sm' | 'md' | 'lg';

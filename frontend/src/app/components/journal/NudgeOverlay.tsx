@@ -1,7 +1,7 @@
 'use client';
 
-import type { RiskLevel } from '../../lib/types';
-import { CRISIS_RESOURCES } from '../../lib/constants';
+import type { RiskLevel } from '../../../../frontend/src/lib/types';
+import { CRISIS_RESOURCES } from '../../../../frontend/src/lib/constants';
 import Button from '../ui/Button';
 
 interface NudgeOverlayProps {

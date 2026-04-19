@@ -1,7 +1,7 @@
 'use client';
 
-import { MOOD_EMOJIS } from '../../lib/constants';
-import { classNames } from '../../lib/utils';
+import { MOOD_EMOJIS } from '../../../../frontend/src/lib/constants';
+import { classNames } from '../../../../frontend/src/lib/utils';
 
 interface MoodSelectorProps {
   value: number | null;

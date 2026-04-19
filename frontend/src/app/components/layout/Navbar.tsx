@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-import { useAuth } from '../../hooks/useAuth';
+import { useAuth } from '../../../../frontend/src/hooks/useAuth';
 
 export default function Navbar() {
   const { user, logout } = useAuth();

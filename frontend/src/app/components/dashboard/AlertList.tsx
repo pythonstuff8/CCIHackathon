@@ -1,9 +1,9 @@
 'use client';
 
-import type { Alert } from '../../lib/types';
+import type { Alert } from '../../../../frontend/src/lib/types';
 import Badge from '../ui/Badge';
-import { timeAgo } from '../../lib/utils';
-import { classNames } from '../../lib/utils';
+import { timeAgo } from '../../../../frontend/src/lib/utils';
+import { classNames } from '../../../../frontend/src/lib/utils';
 import Button from '../ui/Button';
 
 interface AlertListProps {
