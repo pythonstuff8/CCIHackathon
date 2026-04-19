@@ -34,7 +34,7 @@ export default function LoginPage() {
     setLoading(true);
     try {
       await login(email, password);
-      router.push('/journal');
+      // useEffect above handles role-based redirect once user state updates
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Login failed');
     } finally {
