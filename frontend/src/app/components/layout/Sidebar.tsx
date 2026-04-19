@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { classNames } from '../../../../frontend/src/lib/utils';
+import { classNames } from '@/lib/utils';
 
 const links = [
   {
