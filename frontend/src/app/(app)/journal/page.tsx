@@ -1,11 +1,19 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+<<<<<<< HEAD
 import { useJournal } from '../../../hooks/useJournal';
 import JournalEditor from '@/app/components/journal/JournalEditor';
 import JournalCard from '@/app/components/journal/JournalCard';
 import NudgeOverlay from '@/app/components/journal/NudgeOverlay';
 import type { RiskLevel } from '../../../lib/types';
+=======
+import { useJournal } from '@/hooks/useJournal';
+import JournalEditor from '@/app/components/journal/JournalEditor';
+import JournalCard from '@/app/components/journal/JournalCard';
+import NudgeOverlay from '@/app/components/journal/NudgeOverlay';
+import type { RiskLevel } from '@/lib/types';
+>>>>>>> 558dc07 (changed pathing)
 
 export default function JournalPage() {
   const { entries, loading, fetchEntries, createEntry } = useJournal();

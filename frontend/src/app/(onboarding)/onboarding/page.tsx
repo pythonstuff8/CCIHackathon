@@ -2,12 +2,21 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
+<<<<<<< HEAD
 import { useAuth } from '../../../hooks/useAuth';
 import { api } from '../../../lib/api';
 import WelcomeStep from '@/app/components/onboarding/WelcomeStep';
 import ConsentStep from '@/app/components/onboarding/ConsentStep';
 import TrustedAdultStep from '@/app/components/onboarding/TrustedAdultStep';
 import { classNames } from '../../../lib/utils';
+=======
+import { useAuth } from '@/hooks/useAuth';
+import { api } from '@/lib/api';
+import WelcomeStep from '@/app/components/onboarding/WelcomeStep';
+import ConsentStep from '@/app/components/onboarding/ConsentStep';
+import TrustedAdultStep from '@/app/components/onboarding/TrustedAdultStep';
+import { classNames } from '@/lib/utils';
+>>>>>>> 558dc07 (changed pathing)
 
 const STEPS = ['Welcome', 'Privacy', 'Trusted Adults'];
 

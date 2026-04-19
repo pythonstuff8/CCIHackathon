@@ -3,12 +3,21 @@
 import { Suspense, useState, useEffect } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
+<<<<<<< HEAD
 import { useAuth } from '../../../hooks/useAuth';
 import type { UserRole } from '../../../lib/types';
 import Button from '@/app/components/ui/Button';
 import Input from '@/app/components/ui/Input';
 import Card from '@/app/components/ui/Card';
 import { classNames } from '../../../lib/utils';
+=======
+import { useAuth } from '@/hooks/useAuth';
+import type { UserRole } from '@/lib/types';
+import Button from '@/app/components/ui/Button';
+import Input from '@/app/components/ui/Input';
+import Card from '@/app/components/ui/Card';
+import { classNames } from '@/lib/utils';
+>>>>>>> 558dc07 (changed pathing)
 
 const roles: { value: UserRole; label: string; desc: string }[] = [
   { value: 'teen', label: 'Teen', desc: 'I want to journal and track my mood' },

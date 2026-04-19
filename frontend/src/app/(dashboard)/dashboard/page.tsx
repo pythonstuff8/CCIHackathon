@@ -1,7 +1,11 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+<<<<<<< HEAD
 import { useDashboard } from '../../../hooks/useDashboard';
+=======
+import { useDashboard } from '@/hooks/useDashboard';
+>>>>>>> 558dc07 (changed pathing)
 import TeenOverviewCard from '@/app/components/dashboard/TeenOverviewCard';
 import RiskTrendChart from '@/app/components/dashboard/RiskTrendChart';
 import AlertList from '@/app/components/dashboard/AlertList';

@@ -2,7 +2,11 @@
 
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
+<<<<<<< HEAD
 import { useAuth } from '../../hooks/useAuth';
+=======
+import { useAuth } from '@/hooks/useAuth';
+>>>>>>> 558dc07 (changed pathing)
 import Navbar from '@/app/components/layout/Navbar';
 import Sidebar from '@/app/components/layout/Sidebar';
 

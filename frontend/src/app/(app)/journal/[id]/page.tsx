@@ -2,9 +2,15 @@
 
 import { useEffect, useState } from 'react';
 import { useParams, useRouter } from 'next/navigation';
+<<<<<<< HEAD
 import { useJournal } from '../../../../hooks/useJournal';
 import type { JournalEntry } from '../../../../lib/types';
 import { formatDate, getMoodEmoji, getMoodLabel } from '../../../../lib/utils';
+=======
+import { useJournal } from '@/hooks/useJournal';
+import type { JournalEntry } from '@/lib/types';
+import { formatDate, getMoodEmoji, getMoodLabel } from '@/lib/utils';
+>>>>>>> 558dc07 (changed pathing)
 import Badge from '@/app/components/ui/Badge';
 import Button from '@/app/components/ui/Button';
 import Card from '@/app/components/ui/Card';
@@ -13,18 +19,25 @@ export default function JournalDetailPage() {
   const params = useParams();
   const router = useRouter();
   const { fetchEntry, deleteEntry } = useJournal();
+  const id = Number(params.id);
   const [entry, setEntry] = useState<JournalEntry | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(Boolean(id));
 
   useEffect(() => {
-    const id = Number(params.id);
     if (!id) return;
-    setLoading(true);
-    fetchEntry(id).then((e) => {
-      setEntry(e);
+
+    let isActive = true;
+
+    fetchEntry(id).then((nextEntry) => {
+      if (!isActive) return;
+      setEntry(nextEntry);
       setLoading(false);
     });
-  }, [params.id, fetchEntry]);
+
+    return () => {
+      isActive = false;
+    };
+  }, [id, fetchEntry]);
 
   const handleDelete = async () => {
     if (!entry) return;

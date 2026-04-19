@@ -1,6 +1,10 @@
 'use client';
 
+<<<<<<< HEAD
 import { CRISIS_RESOURCES } from '../../../lib/constants';
+=======
+import { CRISIS_RESOURCES } from '@/lib/constants';
+>>>>>>> 558dc07 (changed pathing)
 import Card from '@/app/components/ui/Card';
 
 export default function ResourcesPage() {

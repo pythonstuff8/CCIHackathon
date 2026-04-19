@@ -1,10 +1,17 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+<<<<<<< HEAD
 import { useCheckin } from '../../../hooks/useCheckin';
 import PHQ9Form from '@/app/components/checkin/PHQ9Form';
 import PHQ9Results from '@/app/components/checkin/PHQ9Results';
 import type { PHQ9Response } from '../../../lib/types';
+=======
+import { useCheckin } from '@/hooks/useCheckin';
+import PHQ9Form from '@/app/components/checkin/PHQ9Form';
+import PHQ9Results from '@/app/components/checkin/PHQ9Results';
+import type { PHQ9Response } from '@/lib/types';
+>>>>>>> 558dc07 (changed pathing)
 
 export default function CheckinPage() {
   const { history, loading, fetchHistory, submitCheckin } = useCheckin();

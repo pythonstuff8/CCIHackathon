@@ -1,8 +1,13 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+<<<<<<< HEAD
 import { useAuth } from '../../../hooks/useAuth';
 import { api } from '../../../lib/api';
+=======
+import { useAuth } from '@/hooks/useAuth';
+import { api } from '@/lib/api';
+>>>>>>> 558dc07 (changed pathing)
 import Button from '@/app/components/ui/Button';
 import Input from '@/app/components/ui/Input';
 import Card from '@/app/components/ui/Card';

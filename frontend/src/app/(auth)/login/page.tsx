@@ -3,7 +3,11 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+<<<<<<< HEAD
 import { useAuth } from '../../../hooks/useAuth';
+=======
+import { useAuth } from '@/hooks/useAuth';
+>>>>>>> 558dc07 (changed pathing)
 import Button from '@/app/components/ui/Button';
 import Input from '@/app/components/ui/Input';
 import Card from '@/app/components/ui/Card';
