@@ -3,8 +3,8 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '../../hooks/useAuth';
-import Navbar from '../../components/layout/Navbar';
-import Sidebar from '../../components/layout/Sidebar';
+import Navbar from '@/app/components/layout/Navbar';
+import Sidebar from '@/app/components/layout/Sidebar';
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
   const { user, loading, token } = useAuth();

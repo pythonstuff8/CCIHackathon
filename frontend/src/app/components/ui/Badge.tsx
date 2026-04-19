@@ -1,6 +1,6 @@
-import type { RiskLevel } from '../../../../frontend/src/lib/types';
-import { getRiskColor } from '../../../../frontend/src/lib/utils';
-import { classNames } from '../../../../frontend/src/lib/utils';
+import type { RiskLevel } from '@/lib/types';
+import { getRiskColor } from '@/lib/utils';
+import { classNames } from '@/lib/utils';
 
 interface BadgeProps {
   level: RiskLevel;

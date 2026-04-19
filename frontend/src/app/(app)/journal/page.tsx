@@ -2,9 +2,9 @@
 
 import { useEffect, useState } from 'react';
 import { useJournal } from '../../../hooks/useJournal';
-import JournalEditor from '../../../components/journal/JournalEditor';
-import JournalCard from '../../../components/journal/JournalCard';
-import NudgeOverlay from '../../../components/journal/NudgeOverlay';
+import JournalEditor from '@/app/components/journal/JournalEditor';
+import JournalCard from '@/app/components/journal/JournalCard';
+import NudgeOverlay from '@/app/components/journal/NudgeOverlay';
 import type { RiskLevel } from '../../../lib/types';
 
 export default function JournalPage() {

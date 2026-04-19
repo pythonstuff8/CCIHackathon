@@ -5,9 +5,9 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { useAuth } from '../../../hooks/useAuth';
 import type { UserRole } from '../../../lib/types';
-import Button from '../../../components/ui/Button';
-import Input from '../../../components/ui/Input';
-import Card from '../../../components/ui/Card';
+import Button from '@/app/components/ui/Button';
+import Input from '@/app/components/ui/Input';
+import Card from '@/app/components/ui/Card';
 import { classNames } from '../../../lib/utils';
 
 const roles: { value: UserRole; label: string; desc: string }[] = [

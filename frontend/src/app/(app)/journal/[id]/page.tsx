@@ -5,9 +5,9 @@ import { useParams, useRouter } from 'next/navigation';
 import { useJournal } from '../../../../hooks/useJournal';
 import type { JournalEntry } from '../../../../lib/types';
 import { formatDate, getMoodEmoji, getMoodLabel } from '../../../../lib/utils';
-import Badge from '../../../../components/ui/Badge';
-import Button from '../../../../components/ui/Button';
-import Card from '../../../../components/ui/Card';
+import Badge from '@/app/components/ui/Badge';
+import Button from '@/app/components/ui/Button';
+import Card from '@/app/components/ui/Card';
 
 export default function JournalDetailPage() {
   const params = useParams();

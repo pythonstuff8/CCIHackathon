@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { useCheckin } from '../../../hooks/useCheckin';
-import PHQ9Form from '../../../components/checkin/PHQ9Form';
-import PHQ9Results from '../../../components/checkin/PHQ9Results';
+import PHQ9Form from '@/app/components/checkin/PHQ9Form';
+import PHQ9Results from '@/app/components/checkin/PHQ9Results';
 import type { PHQ9Response } from '../../../lib/types';
 
 export default function CheckinPage() {

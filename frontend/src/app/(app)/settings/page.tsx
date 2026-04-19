@@ -3,9 +3,9 @@
 import { useEffect, useState } from 'react';
 import { useAuth } from '../../../hooks/useAuth';
 import { api } from '../../../lib/api';
-import Button from '../../../components/ui/Button';
-import Input from '../../../components/ui/Input';
-import Card from '../../../components/ui/Card';
+import Button from '@/app/components/ui/Button';
+import Input from '@/app/components/ui/Input';
+import Card from '@/app/components/ui/Card';
 
 interface TrustedAdult {
   id?: number;

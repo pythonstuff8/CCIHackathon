@@ -2,10 +2,10 @@
 
 import { useEffect, useState } from 'react';
 import { useDashboard } from '../../../hooks/useDashboard';
-import TeenOverviewCard from '../../../components/dashboard/TeenOverviewCard';
-import RiskTrendChart from '../../../components/dashboard/RiskTrendChart';
-import AlertList from '../../../components/dashboard/AlertList';
-import Button from '../../../components/ui/Button';
+import TeenOverviewCard from '@/app/components/dashboard/TeenOverviewCard';
+import RiskTrendChart from '@/app/components/dashboard/RiskTrendChart';
+import AlertList from '@/app/components/dashboard/AlertList';
+import Button from '@/app/components/ui/Button';
 
 export default function DashboardPage() {
   const {

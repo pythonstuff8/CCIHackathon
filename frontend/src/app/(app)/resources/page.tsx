@@ -1,7 +1,7 @@
 'use client';
 
 import { CRISIS_RESOURCES } from '../../../lib/constants';
-import Card from '../../../components/ui/Card';
+import Card from '@/app/components/ui/Card';
 
 export default function ResourcesPage() {
   return (

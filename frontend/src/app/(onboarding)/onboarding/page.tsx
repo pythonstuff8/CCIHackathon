@@ -4,9 +4,9 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '../../../hooks/useAuth';
 import { api } from '../../../lib/api';
-import WelcomeStep from '../../../components/onboarding/WelcomeStep';
-import ConsentStep from '../../../components/onboarding/ConsentStep';
-import TrustedAdultStep from '../../../components/onboarding/TrustedAdultStep';
+import WelcomeStep from '@/app/components/onboarding/WelcomeStep';
+import ConsentStep from '@/app/components/onboarding/ConsentStep';
+import TrustedAdultStep from '@/app/components/onboarding/TrustedAdultStep';
 import { classNames } from '../../../lib/utils';
 
 const STEPS = ['Welcome', 'Privacy', 'Trusted Adults'];
