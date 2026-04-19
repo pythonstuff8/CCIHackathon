@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+backend/.env
+
+# Database
+*.db
+
+# Playwright MCP artifacts
+.playwright-mcp/
+
+# Node
+node_modules/
+.next/
+
+# OS
+.DS_Store
