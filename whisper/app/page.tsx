@@ -2,6 +2,9 @@
 
 export default function Home() {
   return (
-    <title>Whisper</title>
+    <main>
+      <h1>Whisper</h1>
+    </main>
+    
   );
 }
